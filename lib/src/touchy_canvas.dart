@@ -77,6 +77,7 @@ class TouchyCanvas {
     GestureDragStartCallback? onPanStart,
     GestureDragUpdateCallback? onPanUpdate,
     GestureDragDownCallback? onPanDown,
+    GestureDragEndCallback? onPanEnd,
     GestureTapDownCallback? onSecondaryTapDown,
     GestureTapUpCallback? onSecondaryTapUp,
   }) {
@@ -100,6 +101,7 @@ class TouchyCanvas {
         onPanStart: onPanStart,
         onPanUpdate: onPanUpdate,
         onPanDown: onPanDown,
+        onPanEnd: onPanEnd,
         onSecondaryTapDown: onSecondaryTapDown,
         onSecondaryTapUp: onSecondaryTapUp,
       ),
@@ -124,6 +126,7 @@ class TouchyCanvas {
     GestureDragStartCallback? onPanStart,
     GestureDragUpdateCallback? onPanUpdate,
     GestureDragDownCallback? onPanDown,
+    GestureDragEndCallback? onPanEnd,
     GestureTapDownCallback? onSecondaryTapDown,
     GestureTapUpCallback? onSecondaryTapUp,
   }) {
@@ -147,6 +150,7 @@ class TouchyCanvas {
           onPanStart: onPanStart,
           onPanUpdate: onPanUpdate,
           onPanDown: onPanDown,
+          onPanEnd: onPanEnd,
           onSecondaryTapDown: onSecondaryTapDown,
           onSecondaryTapUp: onSecondaryTapUp,
         ),
@@ -170,6 +174,7 @@ class TouchyCanvas {
     GestureDragStartCallback? onPanStart,
     GestureDragUpdateCallback? onPanUpdate,
     GestureDragDownCallback? onPanDown,
+    GestureDragEndCallback? onPanEnd,
     GestureTapDownCallback? onSecondaryTapDown,
     GestureTapUpCallback? onSecondaryTapUp,
   }) {
@@ -192,6 +197,7 @@ class TouchyCanvas {
           onPanStart: onPanStart,
           onPanUpdate: onPanUpdate,
           onPanDown: onPanDown,
+          onPanEnd: onPanEnd,
           onSecondaryTapDown: onSecondaryTapDown,
           onSecondaryTapUp: onSecondaryTapUp,
         ),
@@ -222,6 +228,7 @@ class TouchyCanvas {
         GestureDragStartCallback? onPanStart,
         GestureDragUpdateCallback? onPanUpdate,
         GestureDragDownCallback? onPanDown,
+        GestureDragEndCallback? onPanEnd,
         GestureTapDownCallback? onSecondaryTapDown,
         GestureTapUpCallback? onSecondaryTapUp,
       }) {
@@ -243,6 +250,7 @@ class TouchyCanvas {
           onPanStart: onPanStart,
           onPanUpdate: onPanUpdate,
           onPanDown: onPanDown,
+          onPanEnd: onPanEnd,
           onSecondaryTapDown: onSecondaryTapDown,
           onSecondaryTapUp: onSecondaryTapUp,
         )));
@@ -266,6 +274,7 @@ class TouchyCanvas {
     GestureDragStartCallback? onPanStart,
     GestureDragUpdateCallback? onPanUpdate,
     GestureDragDownCallback? onPanDown,
+    GestureDragEndCallback? onPanEnd,
     GestureTapDownCallback? onSecondaryTapDown,
     GestureTapUpCallback? onSecondaryTapUp,
   }) {
@@ -288,6 +297,7 @@ class TouchyCanvas {
           onPanStart: onPanStart,
           onPanUpdate: onPanUpdate,
           onPanDown: onPanDown,
+          onPanEnd: onPanEnd,
           onSecondaryTapDown: onSecondaryTapDown,
           onSecondaryTapUp: onSecondaryTapUp,
         ),
@@ -311,6 +321,7 @@ class TouchyCanvas {
     GestureDragStartCallback? onPanStart,
     GestureDragUpdateCallback? onPanUpdate,
     GestureDragDownCallback? onPanDown,
+    GestureDragEndCallback? onPanEnd,
     GestureTapDownCallback? onSecondaryTapDown,
     GestureTapUpCallback? onSecondaryTapUp,
   }) {
@@ -331,6 +342,7 @@ class TouchyCanvas {
           onPanStart: onPanStart,
           onPanUpdate: onPanUpdate,
           onPanDown: onPanDown,
+          onPanEnd: onPanEnd,
           onSecondaryTapDown: onSecondaryTapDown,
           onSecondaryTapUp: onSecondaryTapUp,
         )));
@@ -353,6 +365,7 @@ class TouchyCanvas {
     GestureDragStartCallback? onPanStart,
     GestureDragUpdateCallback? onPanUpdate,
     GestureDragDownCallback? onPanDown,
+    GestureDragEndCallback? onPanEnd,
     GestureTapDownCallback? onSecondaryTapDown,
     GestureTapUpCallback? onSecondaryTapUp,
   }) {
@@ -375,6 +388,7 @@ class TouchyCanvas {
           onPanStart: onPanStart,
           onPanUpdate: onPanUpdate,
           onPanDown: onPanDown,
+          onPanEnd: onPanEnd,
           onSecondaryTapDown: onSecondaryTapDown,
           onSecondaryTapUp: onSecondaryTapUp,
         ),
@@ -399,6 +413,7 @@ class TouchyCanvas {
     GestureDragStartCallback? onPanStart,
     GestureDragUpdateCallback? onPanUpdate,
     GestureDragDownCallback? onPanDown,
+    GestureDragEndCallback? onPanEnd,
     GestureTapDownCallback? onSecondaryTapDown,
     GestureTapUpCallback? onSecondaryTapUp,
   }) {
@@ -424,6 +439,7 @@ class TouchyCanvas {
           onPanStart: onPanStart,
           onPanUpdate: onPanUpdate,
           onPanDown: onPanDown,
+          onPanEnd: onPanEnd,
           onSecondaryTapDown: onSecondaryTapDown,
           onSecondaryTapUp: onSecondaryTapUp,
         ),
@@ -448,6 +464,7 @@ class TouchyCanvas {
     GestureDragStartCallback? onPanStart,
     GestureDragUpdateCallback? onPanUpdate,
     GestureDragDownCallback? onPanDown,
+    GestureDragEndCallback? onPanEnd,
     GestureTapDownCallback? onSecondaryTapDown,
     GestureTapUpCallback? onSecondaryTapUp,
   }) {
@@ -470,6 +487,7 @@ class TouchyCanvas {
         onPanStart: onPanStart,
         onPanUpdate: onPanUpdate,
         onPanDown: onPanDown,
+        onPanEnd: onPanEnd,
         onSecondaryTapDown: onSecondaryTapDown,
         onSecondaryTapUp: onSecondaryTapUp,
       ),
@@ -496,6 +514,7 @@ class TouchyCanvas {
     GestureDragStartCallback? onPanStart,
     GestureDragUpdateCallback? onPanUpdate,
     GestureDragDownCallback? onPanDown,
+    GestureDragEndCallback? onPanEnd,
     GestureTapDownCallback? onSecondaryTapDown,
     GestureTapUpCallback? onSecondaryTapUp,
   }) {
@@ -521,6 +540,7 @@ class TouchyCanvas {
           onPanStart: onPanStart,
           onPanUpdate: onPanUpdate,
           onPanDown: onPanDown,
+          onPanEnd: onPanEnd,
           onSecondaryTapDown: onSecondaryTapDown,
           onSecondaryTapUp: onSecondaryTapUp,
         ),

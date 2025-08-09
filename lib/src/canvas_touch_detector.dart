@@ -178,6 +178,13 @@ class _CanvasTouchDetectorState extends State<CanvasTouchDetector> {
                   touchController
                       .add(Gesture(GestureType.onPanDown, tapDetail));
                 },
+          onPanEnd: !widget.gesturesToOverride.contains(GestureType.onPanEnd)
+              ? null
+              : (tapDetail) {
+            print('onPanEnd: $tapDetail');
+            touchController
+                .add(Gesture(GestureType.onPanEnd, tapDetail));
+          },
           onSecondaryTapDown: !widget.gesturesToOverride
                   .contains(GestureType.onSecondaryTapDown)
               ? null

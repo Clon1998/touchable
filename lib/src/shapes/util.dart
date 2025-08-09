@@ -25,6 +25,8 @@ class TouchCanvasUtil {
         return (gestureDetail as DragStartDetails).localPosition;
       case DragUpdateDetails:
         return (gestureDetail as DragUpdateDetails).localPosition;
+      case DragEndDetails:
+        return (gestureDetail as DragEndDetails).localPosition;
       case LongPressStartDetails:
         return (gestureDetail as LongPressStartDetails).localPosition;
       case LongPressEndDetails:
@@ -55,6 +57,7 @@ class TouchCanvasUtil {
     required GestureDragStartCallback? onPanStart,
     required GestureDragUpdateCallback? onPanUpdate,
     required GestureDragDownCallback? onPanDown,
+    required GestureDragEndCallback? onPanEnd,
     required GestureTapDownCallback? onSecondaryTapDown,
     required GestureTapUpCallback? onSecondaryTapUp,
   }) {
@@ -95,6 +98,9 @@ class TouchCanvasUtil {
     }
     if (onPanDown != null) {
       map.putIfAbsent(GestureType.onPanDown, () => onPanDown);
+    }
+    if (onPanEnd != null) {
+      map.putIfAbsent(GestureType.onPanEnd, () => onPanEnd);
     }
 
     if (onSecondaryTapDown != null) {
